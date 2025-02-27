@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  dockergram:
+    image: gdagtekin/dockegram:latest
+    container_name: dockegram
+    restart: unless-stopped
+    environment:
+      - TELEGRAM_BOT_TOKEN=
+      - ALLOWED_USER_IDS=
+      - ENABLE_MONITORING=False
+      - MONITORING_INTERVAL=300
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
