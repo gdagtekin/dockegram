@@ -160,7 +160,7 @@ When `ENABLE_MONITORING` is set to `True`, Dockegram will periodically check the
 
 ## License
 
-Distributed under the AGPLv3 License. See [`LICENSE.md`](https://github.com/gdagtekin/dockegram/blob/main/LICENSE) for more information.
+Distributed under the AGPLv3 License. See [`LICENSE.md`](https://github.com/gdagtekin/dockegram/blob/master/LICENSE) for more information.
 
 ## Credits
 

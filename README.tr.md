@@ -56,7 +56,7 @@ services:
 3. `docker-compose.yml` dosyasının bulunduğu dizinde aşağıdaki komutu çalıştırın:
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 ### Yöntem 2: Docker Run Kullanımı
@@ -159,7 +159,7 @@ Dockegram iki komut formatını destekler:
 
 ## Lisans
 
-AGPLv3 Lisansı altında dağıtılmaktadır. Daha fazla bilgi için [`LICENSE.md`](https://github.com/gdagtekin/dockegram/blob/main/LICENSE) dosyasına bakabilirsiniz.
+AGPLv3 Lisansı altında dağıtılmaktadır. Daha fazla bilgi için [`LICENSE.md`](https://github.com/gdagtekin/dockegram/blob/master/LICENSE) dosyasına bakabilirsiniz.
 
 ## Katkı Sağlayanlar
 
