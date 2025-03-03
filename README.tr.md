@@ -1,6 +1,6 @@
-# Dockegram
+# DockeGram
 
-Dockegram, Docker konteynerlarını doğrudan Telegram mesajları üzerinden yönetmenizi sağlayan bir Telegram botudur. Dockegram ile konteynerları başlatabilir, durdurabilir, yeniden başlatabilir, logları görüntüleyebilir ve konteyner durumunu izleyebilirsiniz, tüm bunları Telegram uygulamanızdan yapabilirsiniz.
+DockeGram, Docker konteynerlarını doğrudan Telegram mesajları üzerinden yönetmenizi sağlayan bir Telegram botudur. DockeGram ile konteynerları başlatabilir, durdurabilir, yeniden başlatabilir, logları görüntüleyebilir ve konteyner durumunu izleyebilirsiniz, tüm bunları Telegram uygulamanızdan yapabilirsiniz.
 
 ## Özellikler
 
