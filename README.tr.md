@@ -31,7 +31,8 @@ Dockegram, Docker konteynerlarını doğrudan Telegram mesajları üzerinden yö
 
 ## Kurulum ve Kullanım
 
-### Yöntem 1: Docker Compose Kullanımı
+<details open>
+  <summary><h3>Yöntem 1: Docker Compose Kullanımı</h3></summary> 
 
 1. Aşağıdaki içerikle bir `docker-compose.yml` dosyası oluşturun:
 
@@ -59,7 +60,10 @@ services:
 docker compose up -d
 ```
 
-### Yöntem 2: Docker Run Kullanımı
+</details>
+
+<details>
+  <summary><h3>Yöntem 2: Docker Run Kullanımı</h3></summary> 
 
 ```bash
 docker run -d \
@@ -75,7 +79,17 @@ docker run -d \
 
 `BOT_TOKEN` yerine BotFather'dan aldığınız token'ı ve `KULLANICI_ID` yerine Telegram Kullanıcı ID'nizi yazın. Birden fazla kullanıcıya izin vermek istiyorsanız, ID'leri virgülle ayırın (örn. `123456789,987654321`).
 
-### Yöntem 3: Kaynak Koddan Derleme
+
+Logları kontrol edebilirsiniz
+
+```bash
+docker logs -f dockegram
+```
+
+</details>
+
+<details>
+  <summary><h3>Yöntem 3: Kaynak Koddan Derleme</h3></summary> 
 
 1. Repoyu klonlayın:
 
@@ -103,6 +117,14 @@ docker run -d \
   -v /var/run/docker.sock:/var/run/docker.sock \
   dockegram
 ```
+
+Logları kontrol edebilirsiniz
+
+```bash
+docker logs -f dockegram
+```
+
+</details>
 
 ## Yapılandırma Seçenekleri
 

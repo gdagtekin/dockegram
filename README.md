@@ -32,7 +32,8 @@ Dockegram is a Telegram bot that allows you to manage Docker containers directly
 
 ## Installation and Usage
 
-### Method 1: Using Docker Compose
+<details open>
+  <summary><h3>Method 1: Using Docker Compose</h3></summary> 
 
 1. Create a `docker-compose.yml` file with the following content:
 
@@ -60,7 +61,10 @@ services:
 docker compose up -d
 ```
 
-### Method 2: Using Docker Run
+</details>
+
+<details>
+  <summary><h3>Method 2: Using Docker Run</h3></summary> 
 
 ```bash
 docker run -d \
@@ -76,7 +80,17 @@ docker run -d \
 
 Replace `YOUR_BOT_TOKEN` with the token provided by BotFather and `YOUR_USER_ID` with your Telegram User ID. If you want to allow multiple users, separate their IDs with commas (e.g., `123456789,987654321`).
 
-### Method 3: Building from Source
+
+Check your log
+
+```bash
+docker logs -f dockegram
+```
+
+</details>
+
+<details>
+  <summary><h3>Method 2: Building from Source</h3></summary> 
 
 1. Clone the repository:
 
@@ -104,6 +118,12 @@ docker run -d \
   -v /var/run/docker.sock:/var/run/docker.sock \
   dockegram
 ```
+
+```bash
+docker logs -f dockegram
+```
+
+</details>
 
 ## Configuration Options
 
