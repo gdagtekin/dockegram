@@ -1,6 +1,6 @@
 # DockeGram
 
-Dockegram is a Telegram bot that allows you to manage Docker containers directly through Telegram messages. With Dockegram, you can start, stop, restart containers, view logs, and monitor container status, all from your Telegram app.
+DockeGram is a Telegram bot that allows you to manage Docker containers directly through Telegram messages. With DockeGram, you can start, stop, restart containers, view logs, and monitor container status, all from your Telegram app.
 
 ## Features
 
